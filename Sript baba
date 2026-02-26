@@ -1,0 +1,11 @@
+FROM deblan: latest
+
+RUN apt update && apt upgrade y
+RUN apt install git curl python3-pip ffmpeg -y
+RUN pip install -U pip
+RUN cơ/
+RUN git clone https://github.com/pyrogramers/Hiteshcckiller_bot
+RUN có Hiteshcckiller_bot
+WORKDIR /@Hiteshcckiller_bot
+RUN pip install U requirements.txt
+CHO python3 main.py
